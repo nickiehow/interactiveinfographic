@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* 
+\      \ |__| ____ |  | _|__| ____    /   |   \  ______  _  __
+ /   |   \|  |/ ___\|  |/ /  |/ __ \  /    ~    \/  _ \ \/ \/ /
+/    |    \  \  \___|    <|  \  ___/  \    Y    (  <_> )     / 	Code By Nickie How, CPDD2
+\____|__  /__|\___  >__|_ \__|\___  >  \___|_  / \____/ \/\_/   02/06/2015
+        \/        \/     \/       \/         \/                
+*/
+*{margin:0; padding:0; border: none; outline: none;}
+html {/*overflow-y:hidden;*/width:100%; height:100%;}
+body {background:#000;font-family:Arial,sans-serif;font-size:16px;padding: 0; margin: 0;/*-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;*/margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;}
+img {border:0px;}
+#preloader{position: absolute;width:100%;height:400px;text-align:center;top: 120px;z-index: 9999;}
+#status{background: url(../images/loading.gif) no-repeat;width:474px;height:150px;text-align:center;margin: 80px auto;}
+#bg {/*background-image: url('../images/bg.jpg');*/background:#000;background-size:100% 100%;min-height: 100%;min-width:1024px;width:100%;height:100%;position:fixed;top:0;left:0;padding:0;margin:0;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bgImgs/bg.jpg', sizingMethod='scale')}
+header {background:none;height:116px;}
+header, section, footer, aside, article, figure {display: block;}
+button {cursor:pointer;}
+.ie8bg {display:block;position:fixed;width:100%;height:100%;top:0;left:0;min-height:100%;min-width:1024px;margin:0;padding:0;background-size:100% 100%;}
+.container {position:absolute;width:1024px;height:768px;top:0;left:50%;margin-left:-512px;}
+.container {background: url(../images/bgImgs/bg.jpg) left top no-repeat;}
+.main {background: url(../images/bgImgs/bg.jpg) 0 0 no-repeat;width:1024px;height:768px;top:0;left:0;right:0;margin: 0px auto;}
+.mainstage {position:relative;width:100%;height:768px;margin: 0 auto;text-align:center;top:0;left:0;right:0;}
+.main .bg_home {background:#f5edc8 url('../images/bgImgs/bg_home.jpg')no-repeat;width:1024px;height:768px;top:0;left:0;position:absolute;text-align:left;padding-top:0px;margin:0 auto;} 
+.content {position:relative;padding:0;width:1024px;height:646px;margin:0 auto;}
+.colcell {position:relative;padding:0;width:744px;height:325px;margin:0 auto;}
+.colcell .col1 {float:left;position:relative;width:248px;margin-bottom:36px;text-align:left;}
+.colcell .col2 {float:left;position:relative;width:248px;margin-bottom:36px;text-align:left;}
+.colcell .col3 {float:left;position:relative;width:248px;margin-bottom:36px;text-align:left;}
+.topheader  {position:relative;background:none;top:0;right:0;width:1024px;height:122px;margin:0 auto;text-align:center;z-index:301;}
+.infoMap {display:none;position:relative;padding:0;top:7px;width:1024px;height:646px;margin:0 auto;z-index:301;}
+.popMap {display:none;position:absolute;padding:0;top:7px;width:1024px;height:646px;margin:0 auto;text-align:left;z-index:302;}
+.popSMap {display:none;position:absolute;padding:0;top:390px;left:162px;width:500px;height:264px;margin:0 auto;text-align:left;z-index:403;}
+
+.btn_home  {display:none;float:left;position:absolute;background: url("../images/btnImgs/B_Home1.png") no-repeat scroll 0 0 transparent;bottom:20px;left:30px;width:96px;height:91px;z-index:401;cursor:pointer;}
+.btn_home:hover  {float:left;position:absolute;background: url("../images/btnImgs/B_Home2.png") no-repeat scroll 0 0 transparent;bottom:20px;left:30px;width:96px;height:91px;z-index:401;}
+.btn_lightbulb  {float:left;position:absolute;background: url("../images/btnImgs/B_lightbulb1.png") no-repeat scroll 0 0 transparent;width:36px;height:42px;z-index:401;cursor:pointer;}
+.btn_lightbulb:hover  {float:left;position:absolute;background: url("../images/btnImgs/B_lightbulb2.png") no-repeat scroll 0 0 transparent;width:36px;height:42px;z-index:401;}
+
+.nav_menu {width:1024px;background:none;text-align:left;height:0px;bottom:0;margin:20px auto 0px auto;}
+.nav_menu ul {font-size: 16px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: left; HEIGHT: 8px; PADDING-TOP: 0px;}
+.nav_menu ul li {text-transform:uppercase; MARGIN: 0px 0px 0px 0px; margin-right:29px; DISPLAY: block; FLOAT: left; HEIGHT:61px;cursor:pointer;}
+.nav_menu ul li a {PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: left; COLOR: #000000; font-size: 11px; TEXT-DECORATION: none; PADDING-TOP: 0px;}
+.nav_menu ul li a.active {COLOR: #0243ab;}
+.nav_menu ul li a:hover {COLOR: #0243ab;}
+.nav_menu ul li a.active:hover {COLOR: #0243ab;}
+.nav_menu ul li:first-child {margin-left:28px;}
+.nav_menu ul li:last-child {margin-right:0px;}
+.btn_class {
+	cursor:pointer;
+	-moz-user-select : -moz-none;
+	-khtml-user-select : none;
+	-webkit-user-select : none;
+	-ms-user-select : none;
+	-o-user-select : none;
+	user-select : none;
+}
+.btn_1 {background: transparent url('../images/btnImgs/btn_chinese1.png') 0 0 no-repeat; width:136px; height:61px;cursor:pointer;}
+.btn_1:hover {background: url('../images/btnImgs/btn_chinese2.png') 0 0 no-repeat;width:136px; height:61px;cursor:pointer;}
+.btn_1_active {background: transparent url('../images/btnImgs/btn_chinese2.png') 0 0 no-repeat; width:136px; height:61px;cursor:pointer;}
+.btn_2 {background: transparent url('../images/btnImgs/btn_eurasian1.png') 0 0 no-repeat; width:136px; height:61px;cursor:pointer;}
+.btn_2:hover {background: url('../images/btnImgs/btn_eurasian2.png') 0 0 no-repeat;width:136px; height:61px;cursor:pointer;}
+.btn_2_active {background: transparent url('../images/btnImgs/btn_eurasian2.png') 0 0 no-repeat; width:136px; height:61px;cursor:pointer;}
+.btn_3 {background: transparent url('../images/btnImgs/btn_europeans1.png') 0 0 no-repeat; width:136px; height:61px;cursor:pointer;}
+.btn_3:hover {background: url('../images/btnImgs/btn_europeans2.png') 0 0 no-repeat;width:136px; height:61px;cursor:pointer;}
+.btn_3_active {background: transparent url('../images/btnImgs/btn_europeans2.png') 0 0 no-repeat; width:136px; height:61px;cursor:pointer;}
+.btn_4 {background: transparent url('../images/btnImgs/btn_malay1.png') 0 0 no-repeat; width:136px; height:61px;cursor:pointer;}
+.btn_4:hover {background: url('../images/btnImgs/btn_malay2.png') 0 0 no-repeat;width:136px; height:61px;cursor:pointer;}
+.btn_4_active {background: transparent url('../images/btnImgs/btn_malay2.png') 0 0 no-repeat; width:136px; height:61px;cursor:pointer;}
+.btn_5 {background: transparent url('../images/btnImgs/btn_tamil1.png') 0 0 no-repeat; width:136px; height:61px;cursor:pointer;}
+.btn_5:hover {background: url('../images/btnImgs/btn_tamil2.png') 0 0 no-repeat;width:136px; height:61px;cursor:pointer;}
+.btn_5_active {background: transparent url('../images/btnImgs/btn_tamil2.png') 0 0 no-repeat; width:136px; height:61px;cursor:pointer;}
+.btn_6 {background: transparent url('../images/btnImgs/btn_other1.png') 0 0 no-repeat; width:136px; height:61px;cursor:pointer;}
+.btn_6:hover {background: url('../images/btnImgs/btn_other2.png') 0 0 no-repeat;width:136px; height:61px;cursor:pointer;}
+.btn_6_active {background: transparent url('../images/btnImgs/btn_other2.png') 0 0 no-repeat; width:136px; height:61px;cursor:pointer;}
